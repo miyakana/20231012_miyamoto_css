@@ -1,0 +1,56 @@
+
+.header {
+    height: 70px;
+    padding: 0 30px;
+    background-color: white;
+    color: #00277e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* h1タグ */
+.header__logo{
+    width: 80px;
+    font-size: 24px;
+}
+
+/* ulタグ */
+.header__nav-list{
+    display: flex;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* navタグ */
+.header__nav{
+    margin: 0 0 0 auto;
+}
+
+/* liタグ */
+.header__nav-item{
+    margin: 0 0 0 30px;
+}
+
+
+
+.firstview__img img{
+    margin: 0 0 0 auto;
+    display: block;
+    width: 50vw;
+    height: auto;
+   position: relative;
+   top: 100px;
+}
+
+.firstview__title{
+    font-size: 70px;
+    font-weight: lighter;
+    margin-top: -70px;
+}
+
+.firstview__box{
+    background: #00277e;
+    width: 75%;
+    height: 200px;
+}
